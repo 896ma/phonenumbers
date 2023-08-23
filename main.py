@@ -3,8 +3,7 @@ from test import  number
  
 
 from phonenumbers  import geocoder
-ch_numbr =phonenumbers.parse(number ,"CH")
-print(geocoder.description_for_number(ch_numbr,"en"))
+ch_numbr =phonenumbersnumber(ch_numbr,"en"))
 
 from phonenumbers import carrier
 service_numbr =phonenumbers.parse(number,"RO")
