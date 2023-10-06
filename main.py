@@ -2,7 +2,7 @@ import phonenumbers
 from test import  number       
  
 
-from phonenumbers  import geocod
+from phonenumbers  import geoc
 ch_numbr =phonenumbers.parse(number ,"CH")
 print(geocoder.description_for_number(ch_numbr,"en"))
 
